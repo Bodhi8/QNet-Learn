@@ -12,5 +12,5 @@ import traceback
 try:
     import builtins
 except ImportError:
-    # Python 2 compat: just to be able to declare that Python >=3.5 is needed.
+   
 import __builtin__ as builtins
